@@ -1,0 +1,30 @@
+@use './variables' as v;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: v.$color-fondo;
+	font-family: v.$primary-font-family;
+	font-size: 16px;
+	color: #fff;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1050px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:focus,
+button:focus {
+	outline: none;
+}
